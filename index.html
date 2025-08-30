@@ -11,14 +11,39 @@
 <body>
     <nav class="navbar">
         <div class="nav-logo">
-            <img src="images/laliga-logo.png" alt="laliga Logo" class="logo">
-            <span class="navtitle">Laliga</span>
+            <img src="images\laliga-logo.png" alt="Laliga Logo" class="logo">
         </div>
-        <ul class="nav-items">
-            <li><a href="#fixtures" class="nav-link active" onclick="showSection('fixtures')">Fixtures</a></li>
-            <li><a href="#results" class="nav-link" onclick="showSection('results')">Results</a></li>
-            <li><a href="#table" class="nav-link" onclick="showSection('table')">Table</a></li>
-        </ul>
+        <div class="nav-obj">
+            <ul class="teams">
+                <li><a href="https://athletic-club.eus"><img class="team-img" src="images/athletic.png" alt="Athletic Club"></a></li>
+                <li><a href="https://en.atleticodemadrid.com"><img class="team-img" src="images/atletico.png" alt="Atlético de Madrid"></a></li>
+                <li><a href="https://www.osasuna.es"><img class="team-img" src="images/osasuna.png" alt="CA Osasuna"></a></li>
+                <li><a href="https://www.deportivoalaves.com"><img class="team-img" src="images/alaves.png" alt="Deportivo Alavés"></a></li>
+                <li><a href="https://www.elchecf.es"><img class="team-img" src="images/elche.png" alt="Elche CF"></a></li>
+                <li><a href="https://www.fcbarcelona.com"><img class="team-img" src="images/barcelona.png" alt="FC Barcelona"></a></li>
+                <li><a href="https://www.getafecf.com"><img class="team-img" src="images/getafe.png" alt="Getafe CF"></a></li>
+                <li><a href="https://www.gironafc.cat"><img class="team-img" src="images/girona.png" alt="Girona FC"></a></li>
+                <li><a href="https://www.llevantud.es"><img class="team-img" src="images/levante.png" alt="Levante UD"></a></li>
+                <li><a href="https://www.rayovallecano.es"><img class="team-img" src="images/rayo.png" alt="Rayo Vallecano"></a></li>
+                <li><a href="https://rccelta.es"><img class="team-img" src="images/celta.png" alt="RC Celta"></a></li>
+                <li><a href="https://www.rcdespanyol.com"><img class="team-img" src="images/espanyol.png" alt="RCD Espanyol"></a></li>
+                <li><a href="https://www.rcdmallorca.es"><img class="team-img" src="images/mallorca.png" alt="RCD Mallorca"></a></li>
+                <li><a href="https://www.realbetisbalompie.es"><img class="team-img" src="images/betis.png" alt="Real Betis"></a></li>
+                <li><a href="https://www.realmadrid.com"><img class="team-img" src="images/madrid.png" alt="Real Madrid CF"></a></li>
+                <li><a href="https://realoviedo.es"><img class="team-img" src="images/real-oviedo.png" alt="Real Oviedo"></a></li>
+                <li><a href="https://www.realsociedad.eus"><img class="team-img" src="images/real-sociedad.png" alt="Real Sociedad"></a></li>
+                <li><a href="https://sevillafc.es"><img class="team-img" src="images/sevilla.png" alt="Sevilla FC"></a></li>
+                <li><a href="https://www.valenciacf.com"><img class="team-img" src="images/valencia.png" alt="Valencia CF"></a></li>
+                <li><a href="https://villarrealcf.es"><img class="team-img" src="images/villarreal.png" alt="Villarreal CF"></a></li>
+            </ul>
+            <ul class="nav-items">
+                <li class="llgc"><a href="https://www.laliga.com/en" ><img src="images/llg-logo.png" alt="" class="llg"></a></li>
+                <li><a href="#fixtures" class="nav-link active" onclick="showSection('fixtures')">Matches</a></li>
+                <li><a href="#results" class="nav-link" onclick="showSection('results')">Results</a></li>
+                <li><a href="#table" class="nav-link" onclick="showSection('table')">Table</a></li>
+                <li><a href="#thttps://www.laliga.com/en-NP/leaderboard" class="nav-link">Statistics</a></li>
+            </ul>
+        </div>
     </nav>
     <main>
         <section id="fixtures" class="section active">
@@ -38,9 +63,28 @@
         </section>
     </main>
     <footer>
-        <p>© LaLiga 2025</p>
-        <div class="foot-logo">
-            <img src="images/laliga-logo.png" alt="Premier League Logo" class="logo">
+        <div class="footnav">
+            <ul class="f1">
+                <a href="https://www.laliga.com/en-NP"><li>LaLiga</li></a>
+                <a href="#fixtures"><li>Matches</li></a>
+                <a href=""><li>Live</li></a>
+            </ul>
+            <ul class="f2">
+                <a href="#table"><li>Table</li></a>
+                <a href="https://www.laliga.com/en-NP/leaderboard"><li>Statistics</li></a>
+                <a href="#results"><li>Results</li></a>
+            </ul>
+            <ul class="f3">
+                <a href="https://www.laliga.com/en-NP/laliga-easports/clubs"><li>Clubs</li></a>
+                <a href="https://www.laliga.com/en-NP/partidazos/el-clasico"><li>ELCLASICO</li></a>
+                <a href="https://www.laliga.com/en-NP/partidazos/el-derbi-de-madrid"><li>ELDERBI DE MADRID</li></a>
+            </ul>
+        </div>
+        <div class="foot">
+            <p>© 2025- LALIGA</p>
+            <div class="foot-logo">
+                <img src="images/llg-logo.png" alt="laliga Logo" class="logo">
+            </div>
         </div>
     </footer>
     <script src="script.js"></script>
